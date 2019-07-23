@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+            body {
+                margin: 0;
+                font-size: 21px;
+            }
+
+            h1 {
+                font-size: 48px;
+                margin: 0;
+            }
+
+            h2 {
+                font-size: 36px;
+            }
+
+            h3 {
+                font-size: 28px;
+            }
+
+            header {
+                background-color: #588C94;
+                color: white;
+                text-align: center;
+                padding: 50px 0;
+            }
+
+            .intro {
+                width: 500px;
+                margin: 100px auto;
+                text-align: center;
+
+            }
+
+            .my-skills {
+                background-color: #1D3C41;
+                color: white;
+                padding: 30px 0;
+                text-align: center;
+            }
+
+            .columns {
+                width: 750px;
+                display: flex;
+                margin: 0 auto
+            }
+
+            .column {
+                margin: 5px
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+
+    <header>
+        <h1>I'm learning HTML and CSS</h1>
+    </header>
+    <main>
+        <div class="intro">
+            <h2>HTML and CSS are the building blocks of the web</h2>
+            <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
+        </div>
+
+        <div class="my-skills">
+            <h2>I'm really good at a bunch of stuff!</h2>
+
+            <div class="columns">
+                <!-- column 1 -->
+                <div class="column">
+                    <h3>HTML</h3>
+                    <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
+                </div>
+
+                <!-- column 1 -->
+                <div class="column">
+                    <h3>CSS</h3>
+                    <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
+                </div>
+
+                <!-- column 1 -->
+                <div class="column">
+                    <h3>And More!</h3>
+                    <p>Magna fringilla urna porttitor rhoncus dolor purus. Malesuada bibendum arcu vitae elementum. Purus sit amet volutpat consequat. </p>
+                </div>
+
+            </div> <!-- columns -->
+        </div> <!-- / my-skills -->
+
+    </main>
+    </body>
+</html>
